@@ -1,4 +1,9 @@
-/*! matchMedia() polyfill addListener/removeListener extension. Author & copyright (c) 2012: Scott Jehl. Dual MIT/BSD license */
+/*! matchMedia() polyfill addListener/removeListener extension.
+ *
+ * Forked and modified for CreateThe Group.
+ * 
+ * Author & copyright (c) 2012: Scott Jehl. Dual MIT/BSD license
+ */
 (function(){
 	// monkeypatch unsupported addListener/removeListener with polling
 	if( !window.matchMedia( "x" ).addListener ){
